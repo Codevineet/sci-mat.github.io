@@ -38,7 +38,14 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Welcome to<br>Scimat!
+  title: We are
+
+# Add Words to display 
+# Check Character limit, and does it match with web
+# ex, '["<word 1>", "<word 2>", "<word 3>", "<word n>"]'
+
+hero-ani:
+  txt: '["Scimat", "Text-1", "Text-2", "Text-3"]'
 
 social:
 - {icon: "ti-instagram", link: "https://www.instagram.com/scimat_bmu/"}
