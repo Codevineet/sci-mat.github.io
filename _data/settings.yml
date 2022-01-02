@@ -1,0 +1,291 @@
+#-------------------------------
+# General Site Settings
+
+title: Scimat Club
+logo:
+author: scimat
+description: Scimat Club Website
+email: sci-mat@bmu.edu.in
+phone: +91 8696981673
+address: BML Munjal University, Haryana
+copyright: Copyright Scimat Club
+
+menu:
+- {name: About, link: '/about'}
+- {name: Blog, link: '/blog'}
+- {name: Events, link: '/events'}
+- {name: Contact, link: '/contact'}
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Welcome to<br>Scimat!
+
+social:
+- {icon: "ti-instagram", link: "https://www.instagram.com/scimat_bmu/"}
+- {icon: "ti-twitter", link: "#"}
+
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb:
+  Scimat concentrates on areas where mathematics and computing are most relevant to each other, emphasizing the bridges between theory and practice. We offer opportunities for potential computer scientists both to develop a deeper understanding of the mathematical foundations of their subject, and to acquire a familiarity with the mathematics of application areas where computers can solve otherwise intractable problems.
+
+blurb-btn-link: '/about'
+blurb-btn-name: know more
+
+
+# About Page
+
+# Work Process Section
+work-process:
+  - title : "Research and Plan"
+    icon : "assets/images/icons/plan.png"
+    content : "We strive to provide the students that join the club with properly researched information on the topics we hold our workshops on. Our executive committee also aims to ensure that all events are well-planned."
+
+  - title : "Design and Develop"
+    icon : "assets/images/icons/design.png"
+    content : "We shall concentrate on helping students in the fruition of their own ideas in terms of design and development."
+
+  - title : "Deliver"
+    icon : "assets/images/icons/print.png"
+    content : "We aim to deliver quality over quantity in all of our workshops. We want to create real connections between the students and the heads of the club."
+
+
+# My Team Section
+team:
+  - title : "Prateek"
+    image : "assets/images/team/member-1.png"
+    designation : "Project Manager"
+
+  - title : "Julias Carlie"
+    image : "assets/images/team/member-2.png"
+    designation : "Web Developer"
+
+  - title : "John Doe"
+    image : "assets/images/team/member-3.png"
+    designation : "Designer"
+#-------------------------------
+# Skills Section
+
+# skills-title: Our Event Composition
+# skills:
+# - {name: App Development, color: '#fdb157', value: '100%'}
+# - {name: Web Development, color: '#bdecf6', value: '80%'}
+# - {name: Computational Neuroscience, color: '#9473e6', value: '100%'}
+# - {name: Competitive Programming, color: '#ffbcaa', value: '70%'}
+
+
+#-------------------------------
+# Exprerience Section
+
+# experience-title: Experience
+# experience:
+# - {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
+# - {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
+# - {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+
+
+#-------------------------------
+# Education Section
+
+# education-title: Education
+# education:
+# - {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
+# - {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
+# - {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
+# - {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+
+#-------------------------------
+# Services Section
+
+services-title: Areas of Expertise
+services:
+- {
+    name: App and Web Development,
+    icon: ti-palette,
+    description: 'How to make interactive interfaces from our mathematical projects, gives a brief introduction to coding as well.',
+    active: # Add true to select section
+  }
+- {
+    name: Computational Neuroscience,
+    icon: ti-vector,
+    description: 'Computational neuroscience is the field of study in which mathematical tools and theories are used to investigate brain function.',
+    active: true # Add true to select section
+  }
+- {
+    name: Competitive Programming,
+    icon: ti-panel,
+    description: 'Diving into logical or mathematical problems and coming up with optimised approaches to solve them using computer programs.',
+    active: # Add true to select section
+  }
+
+
+
+#-------------------------------
+# Portfolio (Section and Page)
+
+# Portfolio Home Section
+portfolio-home-items:
+  - image : "assets/images/portfolio/item-1.png"
+    url: "#"
+
+  - image : "assets/images/portfolio/item-2.png"
+    url: "#"
+
+  - image : "assets/images/portfolio/item-3.png"
+    url: "#"
+
+  - image : "assets/images/portfolio/item-4.png"
+    url: "#"
+
+  - image : "assets/images/portfolio/item-5.png"
+    url: "#"
+
+
+# Portfolio Page
+portfolio-label:
+- {
+    title : "Computational Neuroscience",
+    type : "cn"
+  }
+- {
+    title : "App/Web Development",
+    type : "webdapp"
+  }
+- {
+    title : "Competitive Programming",
+    type : "cp"
+  }
+
+portfolio-items:
+  - image : "assets/images/portfolio/item-1.png"
+    url: "#"
+    portfolio-type:
+     - type: "design"
+     - type: "illustration"
+
+  - image : "assets/images/portfolio/item-2.png"
+    url: "#"
+    portfolio-type:
+      - type: "branding"
+
+  - image : "assets/images/portfolio/item-3.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+
+  - image : "assets/images/portfolio/item-6.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      - type: "branding"
+
+  - image : "assets/images/portfolio/item-8.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+
+  - image : "assets/images/portfolio/item-5.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+
+  - image : "assets/images/portfolio/item-1.png"
+    url: "#"
+    portfolio-type:
+      - type: "branding"
+
+  - image : "assets/images/portfolio/item-3.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      - type: "illustration"
+      - type: "branding"
+
+  - image : "assets/images/portfolio/item-7.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+
+
+#-------------------------------
+# Testimonials Section
+
+testimonial-items:
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation : "CEO, Funder"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation: "CEO, Funder"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation: "CEO, Funder"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+
+#-------------------------------
+# Client Slider Section
+
+client-slider-items:
+  - logo: "assets/images/clients-logo/client-logo-1.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-1.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
+
+#-------------------------------
+# Contact Section
+
+contact-title: Contact Info
+contact-email: sci-mat@bmu.edu.in
